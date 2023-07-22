@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FreshMart - Cart</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Welcome to FreshMart</h1>
+            </div>
+        <div class="nav">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart</a>
+              </nav>
+        </div>
+        <div class="search">
+            <section id="search-cart">
+                <input type="text" placeholder="Search for products">
+             </section>
+        </div>    
+      </header>
+
+
+
+
+
+<section id="cart-summary">
+  <h2>Cart Summary</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Subtotal</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>apples</td>
+        <td><input type="number" value="1"> kg</td>
+        <td>Rs. 200/kg</td>
+        <td>Rs. 200/kg</td>
+        <td><button class="remove-item">Remove</button></td>
+      </tr>
+      <tr>
+        <td>Milk</td>
+        <td><input type="number" value="2"> 500 ml each</td>
+        <td>Rs. 28 </td>
+        <td>Rs. 28</td>
+        <td><button class="remove-item">Remove</button></td>
+      </tr>
+            <tr>
+        <td>Green apples</td>
+        <td><input type="number" value="1"> kg</td>
+        <td>Rs. 200/kg</td>
+        <td>Rs. 200/kg</td>
+        <td><button class="remove-item">Remove</button></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3"></td>
+        <td>Total:</td>
+        <td>Rs. 468</td>
+      </tr>
+    </tfoot>
+  </table>
+  <button class="checkout">Checkout</button>
+</section>
+
+  <footer>
+    <p>&copy; 2023 FreshMart. All rights reserved.</p>
+  </footer>
+</body>
+</html>
